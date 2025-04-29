@@ -1,0 +1,16 @@
+# 이 파일은 모든 개발자의 코드 스타일을 통일하기 위해 사용됩니다.
+# .editorconfig 파일 (루트 디렉토리에 위치)
+root = true
+
+# 모든 파일에 기본 설정 적용
+[*]
+charset = utf-8              # UTF-8 인코딩
+end_of_line = lf             # 줄바꿈을 LF로 통일 (유닉스 스타일)
+insert_final_newline = true # 파일 끝에 빈 줄 추가
+indent_style = space         # 들여쓰기는 space
+indent_size = 4              # space 4칸
+trim_trailing_whitespace = true  # 줄 끝 공백 제거
+
+# 마크다운 파일 등은 줄 끝 공백 유지
+[*.md]
+trim_trailing_whitespace = false
